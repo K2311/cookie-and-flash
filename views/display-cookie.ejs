@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie </title>
+</head>
+<body>
+    <h1>Display Cookie</h1>
+    <% if (errorMessage && user_name) { %>
+        <span><%= user_name %></span>
+        <span style="color: red;"><%= errorMessage %></span>
+    <% } %>
+    <a href="/">Go back to Home</a>
+</body>
+</html>

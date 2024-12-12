@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie and Flash Example</title>
+</head>
+<body>
+    
+    
+    <h1>Welcome to the Cookie and Flash Example</h1>
+
+    <form action="/set-flash" method="post" >
+        <input type="text" name="user_name" value="">
+        <button type="submit">Set Flash</button>
+    </form>
+    <br><br>
+    <form action="/set-cookie" method="post" >
+        <input type="text" name="user_name" value="">
+        <button type="submit">Set cookie</button>
+    </form>
+  
+    <p>
+        <a href="/display-cookie">Go to cookie view Page</a>
+        <br>
+        <a href="/clear-cookie">Clear Cookie</a>
+    </p>
+</body>
+</html>
